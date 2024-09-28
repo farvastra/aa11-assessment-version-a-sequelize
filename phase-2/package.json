@@ -1,0 +1,21 @@
+{
+  "name": "sequelize-phase-2-seeding",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "reset-files": "node ../test-utils/reset-files.js",
+    "test": "cross-env DB_FILE=test/test.db mocha --timeout 60000"
+  },
+  "author": "App Academy",
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.4.5",
+    "fs": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "rimraf": "^6.0.1"
+  }
+}

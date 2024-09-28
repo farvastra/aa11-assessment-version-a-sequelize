@@ -1,0 +1,15 @@
+{
+  "programs": {
+    "BASE": {
+      "starter-exclusions": [
+        ".env",
+        "db/dev.db",
+        "example-db-schema.txt",
+        "db/models/package.js",
+        "db/migrations/20220324202124-create-packages.js"
+      ]
+    },
+    "FT": true, 
+    "PT": true  
+  }
+}
